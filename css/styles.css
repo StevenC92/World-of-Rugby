@@ -1,0 +1,102 @@
+/* Used for creating a the background on every page that changes colors*/
+#imageContainer
+{
+    background-image: url("../images/greenbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: .92;
+    z-index: 2;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+
+.pageHeader
+{
+    font-size: 48px;
+    text-align: center;
+    color: white;
+}
+.panel-body
+{
+    background-color: white;
+}
+.panel-heading
+{
+    background-color: antiquewhite;
+    font-size: 16pt;
+    text-align: center;
+    min-height: 50px;
+}
+.carousel-caption h3, p
+{
+    color: white;
+    font-size: 24pt;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+.carousel .item
+{
+    height: 100%;
+}
+.carousel .item iframe
+{
+    height: 100%;
+}
+
+table
+{
+    width: 100%;
+}
+
+th
+{
+    text-align: center;
+}
+.panel-body
+{
+    min-height: 800px;
+    font-size: 16pt;
+}
+.panel-heading
+{
+    background-color: gold;
+}
+a
+{
+    color: red;
+}
+label
+{
+    font-weight: normal;
+}
+/* Spec: A css transition is used on the border of the images to show when they have been highlighted.*/
+.articleImg
+{
+    height: 100%;
+    width: 100%;
+    transition: border 0.5s;
+}
+.articleImg:hover {
+    border: 5px solid blue;
+}
+.panel-body
+{
+    color: black;
+}
+form
+{
+    min-height: 700px;
+}
+.ruck
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

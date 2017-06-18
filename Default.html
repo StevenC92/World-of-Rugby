@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Steven Crickman -->
+    <!-- Spec: Grids, navbar, panels, and image carousel are all used on this page. All the required html tags are used throughout.
+         Footers are used at the bottom of the panels and at the bottom
+        of the carousel.-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Exploring the World of Rugby - Home</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/socialmedia.css" rel="stylesheet" />
+
+    <!--Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/background.js"></script>
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script type="text/javascript" src="http://ff.kis.scr.kaspersky-labs.com/7ADFF87A-0D86-AF45-89CB-E398641E7878/main.js" charset="UTF-8"></script>
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="imageContainer">
+    <header class="pageHeader">Exploring the Game of Rugby</header>
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="default.html">Home</a></li>
+                    <li><a href="overview.html">Overview</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rules<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="BasicRules.html">Basic Rules</a></li>
+                            <li><a href="SetPieces.html">Set Pieces</a></li>
+                            <li><a href="scoring.html">Scoring</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="standings.html">Standings</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Quiz<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="quiz.html">Quiz</a></li>
+                            <li><a href="answers.html">Answers</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Account<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="login.html">Log In</a></li>
+                            <li><a href="signup.html">Sign Up</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <section class="col-md-12">
+            <header class="panel-heading">Home</header>
+            <article class="panel-body">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                        <li data-target="#myCarousel" data-slide-to="5"></li>
+                        <li data-target="#myCarousel" data-slide-to="6"></li>
+                        <li data-target="#myCarousel" data-slide-to="7"></li>
+                        <li data-target="#myCarousel" data-slide-to="8"></li>
+                        <li data-target="#myCarousel" data-slide-to="9"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="images/rugbyhome.jpg">
+                            <div class="carousel-caption">
+                                <h3>Welcome!</h3>
+                                <p>Learn the rules of rugby, View league standings, browse exciting images, and sign up for an account.</p>
+                                <a href="default.html">Home</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/rugbyoverview.jpg">
+                            <div class="carousel-caption">
+                                <h3>Getting Started</h3>
+                                <p>Get started with a general overview of the game of rugby.</p>
+                                <a href="overview.html">Overview</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/rugbybasicrules.jpg">
+                            <div class="carousel-caption">
+                                <h3>Start with the Basics!</h3>
+                                <p>Learn the basic rules of rugby.</p>
+                                <a href="basicRules.html">Basic Rules</a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/rugbyscrum.jpg">
+                            <div class="carousel-caption">
+                                <h3>Scrums, Lineouts, and More!</h3>
+                                <p>Learn about the different set pieces in rugby.</p>
+                                <a href="setpieces.html">Set Pieces</a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/rugbytry.jpg">
+                            <div class="carousel-caption">
+                                <h3>Tries, Drop Goals, and More!</h3>
+                                <p>Learn about the different ways to score points in rugby.</p>
+                                <a href="scoring.html">Scoring</a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                           <img src="images/greenbackground.jpg">
+                           <div class="carousel-caption">
+                              <h3>Standings</h3>
+                                 <p>View the English Premier League standings in a sortable table.</p>
+                                 <a href="standings.html">Standings</a>
+                           </div>
+                       </div>
+
+                        <div class="item">
+                            <img src="images/bluebackground.jpg">
+                            <div class="carousel-caption">
+                                <h3>Quiz</h3>
+                                <p>Take a true or false quiz about rugby based on facts found on this website.</p>
+                                <a href="quiz.html">Quiz</a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/bluebackground.jpg">
+                            <div class="carousel-caption">
+                                <h3>Answers</h3>
+                                <p>See the answers to the quiz.</p>
+                                <a href="answers.html">Answers</a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="images/greenbackground.jpg">
+                            <div class="carousel-caption">
+                                <h3>Log In</h3>
+                                <p>Log in to your RugbyWorld account.</p>
+                                <a href="login.html">Login</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/bluebackground.jpg">
+                            <div class="carousel-caption">
+                                <h3>Sign Up</h3>
+                                <p>Sign up for a RugbyWorld account.</p>
+                                <a href="signup.html">Sign up</a>
+                            </div>
+                        </div>
+                        <footer>Copyright 2016 RugbyWorld Enterprises</footer>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <footer class="panel-footer"></footer>
+        </section>
+    </div>
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
